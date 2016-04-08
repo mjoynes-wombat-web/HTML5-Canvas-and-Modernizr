@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTML5 Drawing</title>
+
+    <style type="text/css">
+
+        body{
+            margin:0;
+        }
+
+        main {
+            width:980px;
+            margin: 0 auto;
+            padding:20px 18px;
+            background-color: #808080;
+            overflow:auto;
+        }
+
+        h1{
+            text-align: center;
+            font-family: Arial;
+            font-size: 48px;
+            color:#fff;
+        }
+
+        canvas{
+            background-color:#fff;
+            border: 2px solid #585858;
+            margin:20px 0;
+        }
+
+        canvas:nth-of-type(odd){
+            float:left;
+        }
+
+        canvas:nth-of-type(even){
+            float:right;
+        }
+        canvas:last-of-type{
+            float:none;
+            margin:20px 0;
+        }
+    </style>
+
+    <script type="text/javascript" src="includes/modernizr.js"></script>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <h1>HTML5 Canvas Drawing</h1>
+        </div>
+
+        <canvas id="Canvas1" width="470" height="300">
+            Your browser doesn't support canvas.
+        </canvas>
+        <canvas id="Canvas2" width="470" height="300">
+            Your browser doesn't support canvas.
+        </canvas>
+        <canvas id="Canvas3" width="470" height="300">
+            Your browser doesn't support canvas.
+        </canvas>
+        <canvas id="Canvas4" width="470" height="300">
+            Your browser doesn't support canvas.
+        </canvas>
+        <canvas id="Canvas5" width="470" height="300">
+            Your browser doesn't support canvas.
+        </canvas>
+        <canvas id="Canvas6" width="470" height="300">
+            Your browser doesn't support canvas.
+        </canvas>
+        <canvas id="Canvas7" width="980" height="600">
+            Your browser doesn't support canvas.
+        </canvas>
+
+        <img id='logo' src="image/logo.png" alt="WIA Logo" style="display:none;"/>
+    </main>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
