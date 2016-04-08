@@ -1,0 +1,5 @@
+Live URL
+http://ssmith-wombatweb.github.io/HTML5-Canvas-and-Modernizr/
+
+Github Repository
+https://github.com/ssmith-wombatweb/HTML5-Canvas-and-Modernizr
